@@ -3,8 +3,8 @@
 2. Install nodejs and npm
 
 3. Get sources:
-	git clone https://github.com/Nadezzdi/test.git
-
+	git clone https://github.com/Nadezzdi/testImage.git
+	
 5. Extract test media files (install unzip if already not)
 	cd testImage/ && unzip media.zip
 
