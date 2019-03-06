@@ -1,0 +1,85 @@
+.imagePreview {
+  border: solid 1px $mid-tone;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.imagePreview:hover {
+  transform: scale(1.5);
+  z-index:10;
+}
+
+.imagePreview img {
+  border: solid 1px #ccc;
+  padding: 10px;
+}
+
+.imagePreview-img{
+  padding: .25rem;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: .25rem;
+  transition: all .2s ease-in-out;
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+
+.btn-primary {
+  margin:5px!important;
+}
+
+.base-list li:hover{
+    background-color: #007bff;
+}
+
+canvas {
+  background-color: blue;
+  max-width: 100%;
+  min-width: 100%;
+  height: auto;
+}
+
+.fill {
+    min-height: 100%;
+    height: 100%;
+}
+.remove-rect {
+  height: 100%;
+}
+.remove-rect-list {
+  overflow-y: auto;
+  height: 100%;
+}
+
+.new-rect-form-group {
+  padding-top: 5px;
+}
+
+.border-between > [class*='col-']:before {
+   background: #e3e3e3;
+   bottom: 0;
+   content: " ";
+   left: 0;
+   position: absolute;
+   width: 1px;
+   top: 0;
+}
+
+.border-between > [class*='col-']:first-child:before {
+   display: none;
+}
+
+.editor-container {
+  height: 50vh
+}
+
+.deleted-rect:hover,
+.deleted-rect:focus {
+  color: #999999;
+  text-decoration: none;
+  background-color: transparent;
+}
+.deleted-rect {
+  color: #999999;
+}
