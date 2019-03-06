@@ -5,15 +5,15 @@
 3. Get sources:
 	git clone https://github.com/Nadezzdi/test.git
 
-4. Compile JS frontend files:
-	cd test/frontend
-	npm install
-	npm run build
-
-5. Extract test media files: 
-	cd ../ && unzip media.zip
+5. Extract test media files (install unzip if already not)
+	cd testImage/ && unzip media.zip
 
 6. Run django dev web-server:
 	python3 manage.py runserver
+	
+4. Optional. Compile JS frontend files (if needed):
+	cd testImage/frontend
+	npm install
+	npm run build
 
 
